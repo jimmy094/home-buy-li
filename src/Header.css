@@ -1,0 +1,46 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(101, 8, 252);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    width: 100%;
+    /* position: fixed; */
+    
+
+}
+
+.logo {
+    padding-left: 3rem;
+    color: white;
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    
+}
+
+.navbar li {
+    margin-left: 5rem;
+    margin-right: 2rem;
+    
+
+}
+
+.navbar a {
+    
+    text-decoration: none;
+    color: rgb(250, 248, 248);
+    font-family:sans-serif;  
+    font-weight: 800;  
+}
+
+
+
+

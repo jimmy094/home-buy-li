@@ -1,0 +1,32 @@
+.hero-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding-top: 5rem;
+    height: 40rem;
+    flex-wrap: wrap-reverse;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.hero-left p {
+    width: 40rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    
+    
+}
+
+.hero-left button {
+    background-color:rgb(101, 38, 248);
+    border: none;
+    font-family: sans-serif;
+    font-weight: 800;
+}

@@ -1,0 +1,32 @@
+.buyer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+    height: 40rem;
+    flex-wrap: wrap;
+}
+
+.buyer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buyer-right p {
+    width: 40rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+.buyer-right button {
+    background-color:rgb(101, 38, 248);
+    border: none;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+
